@@ -4,4 +4,4 @@ RewriteEngine On
   RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} -d
   RewriteRule ^ - [L]
   # If the requested resource doesn't exist, use index.html
-RewriteRule ^ /web/index.html #Carpeta en el servidor (web)
+RewriteRule ^ /web/index.html # Carpeta en el servidor (web)
